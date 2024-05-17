@@ -35,7 +35,7 @@ public class Phi {
     }
 
     public static void main(String[] args) {
-        System.out.println(phi34(10)); // Output: 4
-        System.out.println(phi37(10)); // Output: {1=1, 3=1, 7=1, 9=1}
+        System.out.println(phi34(10)); // 4
+        System.out.println(phi37(10)); // {1=1, 3=1, 7=1, 9=1}
     }
 }

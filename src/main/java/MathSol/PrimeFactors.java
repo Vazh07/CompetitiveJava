@@ -24,6 +24,6 @@ public class PrimeFactors {
     }
 
     public static void main(String[] args) {
-        System.out.println(primeFactors(315)); // Output: {3=2, 5=1, 7=1}
+        System.out.println(primeFactors(315)); //{3=2, 5=1, 7=1}
     }
 }

@@ -22,6 +22,6 @@ public class IsPrime {
     }
 
     public static void main(String[] args) {
-        System.out.println(isPrime(13)); // Output: true
+        System.out.println(isPrime(13));
     }
 }

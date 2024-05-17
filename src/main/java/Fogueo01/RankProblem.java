@@ -15,7 +15,7 @@ public class RankProblem {
             int w = teams.indexOf(match[0]);
             int l = teams.indexOf(match[1]);
 
-            // Swap the positions of teams if winner index > loser index
+            // Intercambio de las posiciones
             if (w > l) {
                 String temp = teams.get(w);
                 teams.set(w, teams.get(l));
@@ -23,7 +23,7 @@ public class RankProblem {
             }
         }
 
-        // Join the team names into a single string separated by spaces
+        // Crear el string necesario para la salida de datos
         StringBuilder sb = new StringBuilder();
         for (String team : teams) {
             sb.append(team).append(" ");
@@ -35,7 +35,7 @@ public class RankProblem {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int m = scanner.nextInt();
-        scanner.nextLine(); // Consume newline character
+        scanner.nextLine(); // Leer el separador de nueva linea
 
         List<String[]> matches = new ArrayList<>();
         for (int i = 0; i < m; i++) {
